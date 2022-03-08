@@ -1,0 +1,48 @@
+.main-cont {
+   margin-top: 40px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   color: white;
+   gap: 40px;
+
+   .main-title {
+      width: 50%;
+      text-align: center;
+      font-weight: 700;
+      font-size: 2.3rem;
+   }
+
+   .main-text {
+      width: 45%;
+      text-align: center;
+      font-size: 1.2rem;
+   }
+
+   button {
+      background-color: hsl(176, 68%, 64%);
+      color: white;
+      padding: 15px 50px 15px 50px;
+      border: none;
+      border-radius: 25px;
+      cursor: pointer;
+   }
+}
+
+@media screen and (max-width: 450px) {
+   .main-cont {
+      img {
+         width: 22rem;
+      }
+
+      .main-title {
+         width: 90%;
+         font-size: 1.8rem;
+      }
+
+      .main-text {
+         width: 80%;
+         font-size: 1rem;
+      }
+   }
+}

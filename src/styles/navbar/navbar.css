@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Raleway:wght@400;700&display=swap");
+.navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-family: "Raleway", sans-serif;
+  padding: 2.5% 3% 2% 3%;
+}
+
+.navbar img {
+  width: 9rem;
+}
+
+.navbar nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 4rem;
+}
+
+.navbar nav a {
+  opacity: 0.8;
+  text-decoration: none;
+  color: white;
+}
+
+.navbar nav a:hover {
+  opacity: 1;
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 450px) {
+  .navbar {
+    margin-top: 10px;
+    font-size: 0.9rem;
+  }
+  .navbar img {
+    width: 6rem;
+  }
+  .navbar nav {
+    gap: 2rem;
+  }
+}
+/*# sourceMappingURL=navbar.css.map */

@@ -1,0 +1,63 @@
+.comments {
+   width: 90%;
+   margin: 150px auto 350px auto;
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   color: white;
+   gap: 3%;
+
+   .quotes {
+      position: absolute;
+      top: 377vh;
+      width: 5%;
+   }
+
+   .comment-card {
+      background-color: hsl(219, 30%, 18%);
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      //   border: 2px solid white;
+      padding: 3rem 1.5rem 1.5rem 1.5rem;
+      z-index: 999;
+
+      span {
+         background-color: hsl(219, 30%, 18%);
+         opacity: 0.8;
+      }
+
+      .comment-user {
+         display: flex;
+         align-items: center;
+         background-color: hsl(219, 30%, 18%);
+         gap: 0.5rem;
+
+         img {
+            width: 10%;
+            border-radius: 100%;
+         }
+
+         .user-info {
+            background-color: hsl(219, 30%, 18%) !important;
+            h5 {
+               background-color: hsl(219, 30%, 18%);
+            }
+            p {
+               background-color: hsl(219, 30%, 18%);
+               font-size: 0.8rem;
+            }
+         }
+      }
+   }
+}
+
+@media screen and (max-width: 450px) {
+   .comments {
+      grid-template-columns: 90%;
+
+      .quotes {
+         top: 390vh;
+         width: 10%;
+      }
+   }
+}

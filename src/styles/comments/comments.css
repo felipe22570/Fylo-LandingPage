@@ -1,0 +1,76 @@
+.comments {
+  width: 90%;
+  margin: 150px auto 350px auto;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+  color: white;
+  gap: 3%;
+}
+
+.comments .quotes {
+  position: absolute;
+  top: 377vh;
+  width: 5%;
+}
+
+.comments .comment-card {
+  background-color: #202a3c;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 20px;
+  padding: 3rem 1.5rem 1.5rem 1.5rem;
+  z-index: 999;
+}
+
+.comments .comment-card span {
+  background-color: #202a3c;
+  opacity: 0.8;
+}
+
+.comments .comment-card .comment-user {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #202a3c;
+  gap: 0.5rem;
+}
+
+.comments .comment-card .comment-user img {
+  width: 10%;
+  border-radius: 100%;
+}
+
+.comments .comment-card .comment-user .user-info {
+  background-color: #202a3c !important;
+}
+
+.comments .comment-card .comment-user .user-info h5 {
+  background-color: #202a3c;
+}
+
+.comments .comment-card .comment-user .user-info p {
+  background-color: #202a3c;
+  font-size: 0.8rem;
+}
+
+@media screen and (max-width: 450px) {
+  .comments {
+    -ms-grid-columns: 90%;
+        grid-template-columns: 90%;
+  }
+  .comments .quotes {
+    top: 390vh;
+    width: 10%;
+  }
+}
+/*# sourceMappingURL=comments.css.map */

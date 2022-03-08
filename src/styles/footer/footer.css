@@ -1,0 +1,182 @@
+.footer {
+  height: 50vh;
+  padding-top: 20vh;
+  color: white;
+  background-color: #0b1523;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.footer .fylo {
+  width: 10rem;
+  margin-left: 7.5%;
+  background-color: #0b1523;
+}
+
+.footer .footer-info {
+  background-color: #0b1523;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 5%;
+  width: 85%;
+  margin: 0 auto 0 auto;
+  opacity: 0.8;
+}
+
+.footer .footer-info .ubication {
+  background-color: #0b1523;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-preferred-size: 120rem;
+      flex-basis: 120rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 5%;
+}
+
+.footer .footer-info .ubication span {
+  background-color: #0b1523;
+}
+
+.footer .footer-info .contact {
+  background-color: #0b1523;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-preferred-size: 80rem;
+      flex-basis: 80rem;
+}
+
+.footer .footer-info .contact .element {
+  background-color: #0b1523;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 5%;
+  margin-bottom: 10%;
+}
+
+.footer .footer-info .about-us {
+  background-color: #0b1523;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-preferred-size: 30rem;
+      flex-basis: 30rem;
+}
+
+.footer .footer-info .about-us span {
+  background-color: #0b1523;
+  margin-bottom: 10%;
+  cursor: pointer;
+}
+
+.footer .footer-info .about-us span:hover {
+  opacity: 1;
+  font-weight: 700;
+}
+
+.footer .footer-info .contact-us {
+  background-color: #0b1523;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-preferred-size: 30rem;
+      flex-basis: 30rem;
+}
+
+.footer .footer-info .contact-us span {
+  background-color: #0b1523;
+  margin-bottom: 8%;
+  cursor: pointer;
+}
+
+.footer .footer-info .contact-us span:hover {
+  opacity: 1;
+  font-weight: 700;
+}
+
+.footer .footer-info .icons {
+  background-color: #0b1523;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 0.8rem;
+}
+
+.footer .footer-info .icons .icon {
+  cursor: pointer;
+}
+
+@media screen and (max-width: 450px) {
+  .footer {
+    height: 120vh;
+    padding-top: 40vh;
+  }
+  .footer .footer-info {
+    width: 90%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    gap: 30px;
+    margin: auto;
+  }
+  .footer .footer-info .ubication {
+    -ms-flex-preferred-size: auto;
+        flex-basis: auto;
+  }
+  .footer .footer-info .contact {
+    -ms-flex-preferred-size: auto;
+        flex-basis: auto;
+  }
+  .footer .footer-info .contact-us {
+    -ms-flex-preferred-size: auto;
+        flex-basis: auto;
+  }
+  .footer .footer-info .about-us {
+    -ms-flex-preferred-size: auto;
+        flex-basis: auto;
+  }
+}
+/*# sourceMappingURL=footer.css.map */

@@ -1,0 +1,52 @@
+.main-cont {
+  margin-top: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+  gap: 40px;
+}
+
+.main-cont .main-title {
+  width: 50%;
+  text-align: center;
+  font-weight: 700;
+  font-size: 2.3rem;
+}
+
+.main-cont .main-text {
+  width: 45%;
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+.main-cont button {
+  background-color: #65e2d9;
+  color: white;
+  padding: 15px 50px 15px 50px;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 450px) {
+  .main-cont img {
+    width: 22rem;
+  }
+  .main-cont .main-title {
+    width: 90%;
+    font-size: 1.8rem;
+  }
+  .main-cont .main-text {
+    width: 80%;
+    font-size: 1rem;
+  }
+}
+/*# sourceMappingURL=main.css.map */

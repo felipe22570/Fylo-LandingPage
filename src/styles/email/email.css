@@ -1,0 +1,95 @@
+.email {
+  position: absolute;
+  top: 445vh;
+  left: 25%;
+  background-color: #1c2431;
+  padding: 50px;
+  border-radius: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 25px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  color: white;
+  width: 50%;
+  margin: auto auto 100px auto;
+}
+
+.email h1 {
+  background-color: #1c2431;
+}
+
+.email span {
+  background-color: #1c2431;
+  font-size: 0.9rem;
+}
+
+.email .form-email {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 20px;
+}
+
+.email .form-email input {
+  padding-left: 0.8rem;
+  background-color: white;
+  height: 6vh;
+  width: 30rem;
+  border: none;
+  border-radius: 25px;
+}
+
+.email .form-email button {
+  background-color: #65e2d9;
+  color: white;
+  padding: 10px 20px 10px 20px;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+.email .hidden {
+  display: none;
+}
+
+.email .show {
+  display: block;
+}
+
+@media screen and (max-width: 450px) {
+  .email {
+    width: 60%;
+    left: 5%;
+    right: 5%;
+    top: 530vh;
+    padding-top: 20px;
+  }
+  .email h1 {
+    font-size: 1.2rem;
+  }
+  .email span {
+    font-size: 0.8rem;
+  }
+  .email .form-email {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100%;
+  }
+  .email .form-email input {
+    width: 100%;
+  }
+}
+/*# sourceMappingURL=email.css.map */

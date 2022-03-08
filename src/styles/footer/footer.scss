@@ -1,0 +1,131 @@
+.footer {
+   height: 50vh;
+   padding-top: 20vh;
+   color: white;
+   background-color: hsl(216, 53%, 9%);
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+
+   .fylo {
+      width: 10rem;
+      margin-left: 7.5%;
+      background-color: hsl(216, 53%, 9%);
+   }
+
+   .footer-info {
+      background-color: hsl(216, 53%, 9%);
+      display: flex;
+      align-items: center;
+      gap: 5%;
+      width: 85%;
+      margin: 0 auto 0 auto;
+      opacity: 0.8;
+
+      .ubication {
+         background-color: hsl(216, 53%, 9%);
+         display: flex;
+         flex-basis: 120rem;
+         align-items: center;
+         gap: 5%;
+
+         span {
+            background-color: hsl(216, 53%, 9%);
+         }
+      }
+
+      .contact {
+         background-color: hsl(216, 53%, 9%);
+         display: flex;
+         flex-direction: column;
+         justify-content: space-around;
+         flex-basis: 80rem;
+
+         .element {
+            background-color: hsl(216, 53%, 9%);
+            display: flex;
+            align-items: center;
+            gap: 5%;
+            margin-bottom: 10%;
+         }
+      }
+
+      .about-us {
+         background-color: hsl(216, 53%, 9%);
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+         flex-basis: 30rem;
+
+         span {
+            background-color: hsl(216, 53%, 9%);
+            margin-bottom: 10%;
+            cursor: pointer;
+
+            &:hover {
+               opacity: 1;
+               font-weight: 700;
+            }
+         }
+      }
+
+      .contact-us {
+         background-color: hsl(216, 53%, 9%);
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+         flex-basis: 30rem;
+
+         span {
+            background-color: hsl(216, 53%, 9%);
+            margin-bottom: 8%;
+            cursor: pointer;
+
+            &:hover {
+               opacity: 1;
+               font-weight: 700;
+            }
+         }
+      }
+
+      .icons {
+         background-color: hsl(216, 53%, 9%);
+         display: flex;
+         gap: 0.8rem;
+
+         .icon {
+            cursor: pointer;
+         }
+      }
+   }
+}
+
+@media screen and (max-width: 450px) {
+   .footer {
+      height: 120vh;
+      padding-top: 40vh;
+      .footer-info {
+         width: 90%;
+         flex-direction: column;
+         align-items: flex-start;
+         gap: 30px;
+         margin: auto;
+
+         .ubication {
+            flex-basis: auto;
+         }
+
+         .contact {
+            flex-basis: auto;
+         }
+
+         .contact-us {
+            flex-basis: auto;
+         }
+
+         .about-us {
+            flex-basis: auto;
+         }
+      }
+   }
+}

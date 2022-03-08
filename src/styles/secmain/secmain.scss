@@ -1,0 +1,55 @@
+.sec-main {
+   display: flex;
+   align-items: center;
+   color: white;
+   width: 90%;
+   margin: 150px auto 0 auto;
+   gap: 3%;
+
+   .text {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+
+      h1 {
+         width: 50%;
+      }
+
+      span {
+         opacity: 0.8;
+      }
+
+      a {
+         color: hsl(176, 68%, 64%);
+         align-items: center;
+      }
+   }
+}
+
+@media screen and (max-width: 450px) {
+   .sec-main {
+      flex-direction: column;
+      justify-content: center;
+
+      .imagen {
+         width: 22rem;
+      }
+
+      .text {
+         h1 {
+            width: 90%;
+            font-size: 1.2rem;
+         }
+
+         span {
+            font-size: 1rem;
+         }
+
+         a {
+            img {
+               width: 1rem;
+            }
+         }
+      }
+   }
+}
